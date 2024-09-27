@@ -8,17 +8,15 @@ export default function Header() {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: "no-repeat"
-          }}>
+        }}>
             <Navbar />
-
-        <div className="w-full flex justify-center relative top-48">
-            <div className="w-80 flex flex-col justify-center gap-7 items-center text-center text-[rgb(200,200,200)]">
-                <h1 className="text-8xl -tracking-tighter">FRIEND</h1>
-                <h1 className="font-normal text-lg">Pioneering IT innovation with top-tier web, mobile app development, and IT solutions.</h1>
-                <button>GET STARTED</button>
+            <div className="w-full flex justify-center relative top-52">
+                <div className="w-[500px] flex flex-col justify-center gap-7 items-center text-center text-[rgb(200,200,200)]">
+                    <h1 className="text-9xl font-bold tracking-[10px] border-b-2 border-solid pb-2 border-[rgb(200,200,200)] animate-fadeIn">AraratIT</h1>
+                    <h2 className="font-normal text-2xl animate-fadeIn">Pioneering IT innovation with top-tier web, mobile app development, and IT solutions.</h2>
+                    <button className="py-3 px-7 bg-[#D2D2D2] text-[#313131] rounded-full tracking-[4px] shadow-shadow1 transition-all duration-300 hover:bg-slate-200 animate-fadeIn">GET STARTED</button>
+                </div>
             </div>
-        </div>
-            
         </header>
-    )
-};
+    );
+}
